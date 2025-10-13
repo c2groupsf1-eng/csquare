@@ -1,3 +1,4 @@
+import Image from "next/image";
 "use client";
 import { CardBody, CardContainer, CardItem } from "../../components/ui/3d-card";
 import { useFadeInOnScroll } from "./hooks/useFadeInOnScroll";
@@ -21,7 +22,7 @@ export default function Team() {
           <CardContainer key={i} className="team-3d-card">
             <CardBody className="bg-gray-50 relative group/card dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-[22rem] h-[28rem] rounded-lg p-8 border flex flex-col items-center justify-center">
               <CardItem translateZ="50" className="flex flex-col items-center">
-                <img src={m.img} alt={m.name} className="w-48 h-64 rounded-md mb-6 object-cover" />
+                <Image src={m.img} alt={m.name} width={192} height={256} className="rounded-md mb-6 object-cover" />
                 <h3 className="text-2xl font-semibold text-blue-800 dark:text-white mb-2">{m.name}</h3>
                 <p className="text-lg text-gray-600 dark:text-neutral-300">{m.role}</p>
               </CardItem>

@@ -6,7 +6,6 @@ import Team from "./components/Team";
 
 
 import Sponsors from "./components/Sponsors";
-import MacbookScrollDemo from "./components/MacbookScrollDemo";
 
 export default function Home() {
   return (

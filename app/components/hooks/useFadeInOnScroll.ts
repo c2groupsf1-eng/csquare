@@ -6,9 +6,9 @@ gsap.registerPlugin(ScrollTrigger);
 
 export function useFadeInOnScroll(selector: string) {
   useEffect(() => {
-    gsap.utils.toArray(selector).forEach((el: any) => {
+    gsap.utils.toArray(selector).forEach((el) => {
       gsap.fromTo(
-        el,
+        el as HTMLElement,
         { opacity: 0, y: 40 },
         {
           opacity: 1,
@@ -16,7 +16,7 @@ export function useFadeInOnScroll(selector: string) {
           duration: 0.8,
           ease: "power2.out",
           scrollTrigger: {
-            trigger: el,
+            trigger: el as HTMLElement,
             start: "top 80%",
             toggleActions: "play none none none",
           },

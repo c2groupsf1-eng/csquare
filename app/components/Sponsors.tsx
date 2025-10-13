@@ -1,3 +1,4 @@
+import Image from "next/image";
 "use client";
 import { useFadeInOnScroll } from "./hooks/useFadeInOnScroll";
 
@@ -15,7 +16,7 @@ export default function Sponsors() {
       <div className="grid grid-cols-2 sm:grid-cols-3 gap-8 items-center justify-items-center">
         {sponsors.map((s, i) => (
             <div key={i} className="sponsor-logo p-4 bg-black rounded-xl shadow hover:scale-105 transition">
-            <img src={s.logo} alt={s.name} className="w-full max-h-32 object-contain mx-auto" />
+            <Image src={s.logo} alt={s.name} width={256} height={128} className="w-full max-h-32 object-contain mx-auto" />
           </div>
         ))}
       </div>
