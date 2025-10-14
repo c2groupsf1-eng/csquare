@@ -1,4 +1,5 @@
-import MacbookScrollDemo from "./MacbookScrollDemo";
+"use client";
+// ...existing code...
 export default function SplineEmbed() {
   return (
     <section id="car" className="max-w-4xl mx-auto py-16 px-4">

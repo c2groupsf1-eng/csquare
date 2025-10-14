@@ -1,3 +1,4 @@
+"use client";
 export default function About() {
   return (
     <section className="max-w-3xl mx-auto py-16 px-4 text-center">

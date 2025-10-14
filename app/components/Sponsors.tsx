@@ -1,5 +1,5 @@
-import Image from "next/image";
 "use client";
+import Image from "next/image";
 import { useFadeInOnScroll } from "./hooks/useFadeInOnScroll";
 
 const sponsors = [
@@ -23,3 +23,4 @@ export default function Sponsors() {
     </section>
   );
 }
+// ...existing code...
