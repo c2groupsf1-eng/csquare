@@ -1,5 +1,4 @@
 "use client";
-"use client";
 import Image from "next/image";
 import { CardBody, CardContainer, CardItem } from "../../components/ui/3d-card";
 import { useFadeInOnScroll } from "./hooks/useFadeInOnScroll";
@@ -7,9 +6,9 @@ import { useFadeInOnScroll } from "./hooks/useFadeInOnScroll";
 const members = [
   { name: "Navaneeth", role: "Aerodynamic Engineer", img: "/team/navaneeth.jpg" },
   { name: "Aryan", role: "Manufacturing Engineer", img: "/team/aryan.jpg" },
-  { name: "Vikram", role: "Team Lead", img: "/team/vikram.jpg" },
+  { name: "Vikram", role: "Team Lead", img: "/team/vikram (2).jpg" },
   { name: "Ehan", role: "Lead Designer", img: "/team/ehan.jpg" },
-  { name: "Chinmay", role: "PR & Marketing Lead", img: "team/chinmay.jpg" },
+  { name: "Arjun", role: "PR & Marketing Lead", img: "/team/arjun.jpg" },
   { name: "Johann", role: "Resource Manager", img: "/team/johann.jpg" },
 ];
 

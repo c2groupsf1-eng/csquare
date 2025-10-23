@@ -5,7 +5,8 @@ import { useFadeInOnScroll } from "./hooks/useFadeInOnScroll";
 const sponsors = [
   { name: "Sponsor 1", logo: "/sponsors/perpetuus.png" },
   { name: "Sponsor 2", logo: "/sponsors/planetearth.png" },
-  // Add more sponsors as needed
+  { name: "Sponsor 3", logo: "/sponsors/giis.png" },
+  { name: "Sponsor 4", logo: "/sponsors/f1bearings.png" },
 ];
 
 export default function Sponsors() {
