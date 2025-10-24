@@ -23,6 +23,17 @@ export default function Hero() {
       <h1 className="text-5xl md:text-7xl font-extrabold text-blue-800 mb-4">Team C²</h1>
       <p className="text-xl md:text-2xl text-blue-600 mb-8">Engineering Speed. Shaping the Future.</p>
       <Button size="lg" onClick={scrollToTeam}>Meet the Team</Button>
+      <pre>
+
+
+
+
+
+
+
+
+        
+      </pre>
       {/* Animated shapes with GSAP can be added here */}
     </section>
   );
