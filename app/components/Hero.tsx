@@ -19,21 +19,10 @@ export default function Hero() {
   };
 
   return (
-    <section ref={heroRef} id="home" className="flex flex-col items-center justify-center min-h-[80vh] text-center bg-gradient-to-br from-blue-100 to-white">
-      <h1 className="text-5xl md:text-7xl font-extrabold text-blue-800 mb-4">Team C²</h1>
-      <p className="text-xl md:text-2xl text-blue-600 mb-8">Engineering Speed. Shaping the Future.</p>
+  <section ref={heroRef} id="home" className="flex flex-col items-center justify-center min-h-[80vh] text-center">
+  <h1 className="text-5xl md:text-7xl font-extrabold text-yellow-600 mb-4">Team C²</h1>
+  <p className="text-xl md:text-2xl text-yellow-500 mb-8">Engineering Speed. Shaping the Future.</p>
       <Button size="lg" onClick={scrollToTeam}>Meet the Team</Button>
-      <pre>
-
-
-
-
-
-
-
-
-        
-      </pre>
       {/* Animated shapes with GSAP can be added here */}
     </section>
   );

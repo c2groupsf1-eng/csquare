@@ -27,7 +27,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gradient-to-br from-blue-50 to-white min-h-screen text-gray-900`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen text-gray-900 relative`}>
+        <div className="fixed inset-0 -z-10 w-full h-full overflow-hidden">
+          <iframe
+            src="https://my.spline.design/fullelectric-ZvlxRxT4AbuRLxROkgzL9Mds/"
+            title="3D Car Model Overlay"
+            frameBorder="0"
+            width="100%"
+            height="100%"
+            style={{width: "100vw", height: "100vh", opacity: 1, pointerEvents: "auto"}}
+            allowFullScreen
+          />
+        </div>
         <Navbar />
         <main>{children}</main>
         <Footer />
